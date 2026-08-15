@@ -1,0 +1,79 @@
+/* ================================
+   RD STORE - ESTILOS PRINCIPALES
+   ================================ */
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: #f5f5f5;
+    color: #222;
+}
+
+/* ENCABEZADO */
+
+header {
+    background-color: #111;
+    color: white;
+}
+
+.navbar {
+    max-width: 1200px;
+    margin: auto;
+    padding: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.logo {
+    color: white;
+    text-decoration: none;
+    font-size: 24px;
+    font-weight: bold;
+}
+
+.nav-links {
+    list-style: none;
+    display: flex;
+    gap: 25px;
+}
+
+.nav-links a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.nav-links a:hover {
+    color: #ccc;
+}
+
+/* CONTENEDOR GENERAL */
+
+main {
+    max-width: 1200px;
+    margin: auto;
+    padding: 40px 20px;
+}
+
+/* BOTONES */
+
+button,
+.btn {
+    border: none;
+    cursor: pointer;
+    padding: 12px 20px;
+    border-radius: 6px;
+    font-weight: bold;
+}
+
+/* ENLACES */
+
+a {
+    transition: 0.3s;
+}
